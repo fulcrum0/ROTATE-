@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 20734083}
   - component: {fileID: 20734085}
   - component: {fileID: 20734086}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 80328063}
   - component: {fileID: 80328065}
   - component: {fileID: 80328066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 282069043}
   - component: {fileID: 282069045}
   - component: {fileID: 282069046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,6 +545,7 @@ GameObject:
   - component: {fileID: 496353371}
   - component: {fileID: 496353370}
   - component: {fileID: 496353369}
+  - component: {fileID: 496353372}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -592,7 +593,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &496353370
 CircleCollider2D:
@@ -689,6 +690,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &496353372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496353367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbccd8f081b7b1a46b06f0fd5721235d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ball
+  _rb2d: {fileID: 496353369}
+  _checkGroundDistance: 0.25
+  _layerCheck:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +974,7 @@ GameObject:
   - component: {fileID: 909436049}
   - component: {fileID: 909436051}
   - component: {fileID: 909436052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,7 +1164,7 @@ GameObject:
   - component: {fileID: 1053298598}
   - component: {fileID: 1053298600}
   - component: {fileID: 1053298601}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallSideRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,7 +1302,7 @@ GameObject:
   - component: {fileID: 1345311535}
   - component: {fileID: 1345311537}
   - component: {fileID: 1345311538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1422,7 +1440,7 @@ GameObject:
   - component: {fileID: 1670063621}
   - component: {fileID: 1670063623}
   - component: {fileID: 1670063624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1578,7 @@ GameObject:
   - component: {fileID: 1913278082}
   - component: {fileID: 1913278084}
   - component: {fileID: 1913278085}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallSideLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
