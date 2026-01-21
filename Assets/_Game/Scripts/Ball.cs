@@ -21,12 +21,12 @@ public class Ball : MonoBehaviour {
     }
 
     bool IsGrounded() {
-        // Global world down yönünde raycast
+        // uses the distance of the red line to see if the object is grounded
         return Physics2D.Raycast(transform.position, Vector2.down, _checkGroundDistance, _layerCheck);
     }
 
     void OnDrawGizmos() {
-        // Global down (kırmızı) çizgi
+        // draws red line 
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * _checkGroundDistance);
     }
