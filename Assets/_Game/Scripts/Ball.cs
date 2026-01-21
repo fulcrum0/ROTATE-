@@ -3,6 +3,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
     [Header("References")]
     [SerializeField] private Rigidbody2D _rb2d;
+    [SerializeField] private UI _ui;
 
     [Header("Settings")]
     [SerializeField] private float _checkGroundDistance;
@@ -30,5 +31,11 @@ public class Ball : MonoBehaviour {
         // draws red line 
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * _checkGroundDistance);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("Obstacle")) {
+            _ui.TakeDamage(5);
+        }
     }
 }
