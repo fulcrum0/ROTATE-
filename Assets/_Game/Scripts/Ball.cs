@@ -5,18 +5,19 @@ public class Ball : MonoBehaviour {
     [SerializeField] private Rigidbody2D _rb2d;
 
     [Header("Settings")]
-    [SerializeField] private float _checkGroundDistance = 0.18f;
+    [SerializeField] private float _checkGroundDistance;
+    [SerializeField] private float _fricitionMultiplier;
     [SerializeField] private LayerMask _layerCheck;
 
     void FixedUpdate() {
-        Friction();
+        Friction(_fricitionMultiplier);
     }
 
-    void Friction() {
+    void Friction(float multiplier) {
+        // gets the multiplier and applies to the ball
+        multiplier = _fricitionMultiplier;
         Vector2 velocity = _rb2d.linearVelocity;
-
-        float friction = 0.85f;
-        velocity.x *= friction;
+        velocity.x *= multiplier;
         _rb2d.linearVelocity = velocity;
     }
 

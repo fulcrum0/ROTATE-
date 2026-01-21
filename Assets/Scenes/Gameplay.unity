@@ -704,6 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ball
   _rb2d: {fileID: 496353369}
   _checkGroundDistance: 0.25
+  _fricitionMultiplier: 0.85
   _layerCheck:
     serializedVersion: 2
     m_Bits: 8
