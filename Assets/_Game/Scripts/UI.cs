@@ -18,7 +18,7 @@ public class UI : MonoBehaviour {
         UpdateHealthUI();
     }
 
-    public void TakeDamage(int damage) {
+    public void UpdateHealth(int damage) {
         _currentHealth -= damage;
     }
 
