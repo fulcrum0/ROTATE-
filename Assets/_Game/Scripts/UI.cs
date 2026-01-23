@@ -6,7 +6,7 @@ public class UI : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI _healthText;
 
     [Header("Settings")]
-    private readonly int _health = 100;
+    private int _health = 100;
     private int _currentHealth;
 
     void Start() {
