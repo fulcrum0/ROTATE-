@@ -41,27 +41,27 @@ public class Ball : MonoBehaviour {
     //     Gizmos.DrawLine(transform.position, transform.position + Vector3.down * _checkGroundDistance);
     // }
 
-    void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.CompareTag("FinishPoint")) {
-            transform.position = _startPoint.position;
-        }
-    }
+    // void OnTriggerEnter2D(Collider2D collision) {
+    //     if (collision.gameObject.CompareTag("FinishPoint")) {
+    //         transform.position = _startPoint.position;
+    //     }
+    // }
 
-    void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("Cactus")) {
-            _ui.UpdateHealth(5);
-        }
-        else if (collision.gameObject.CompareTag("Mud")) {
-            _currentFrictionMultiplier = _mudFricitionMultiplier;
-        }
-        else if (collision.gameObject.CompareTag("Spike")) {
-            transform.position = _startPoint.position;
-        }
-    }
+    // void OnCollisionEnter2D(Collision2D collision) {
+    //     if (collision.gameObject.CompareTag("Cactus")) {
+    //         _ui.UpdateHealth(5);
+    //     }
+    //     else if (collision.gameObject.CompareTag("Mud")) {
+    //         _currentFrictionMultiplier = _mudFricitionMultiplier;
+    //     }
+    //     else if (collision.gameObject.CompareTag("Spike")) {
+    //         transform.position = _startPoint.position;
+    //     }
+    // }
 
-    void OnCollisionExit2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("Mud")) {
-            _currentFrictionMultiplier = _platformFricitionMultiplier;
-        }
-    }
+    // void OnCollisionExit2D(Collision2D collision) {
+    //     if (collision.gameObject.CompareTag("Mud")) {
+    //         _currentFrictionMultiplier = _platformFricitionMultiplier;
+    //     }
+    // }
 }
