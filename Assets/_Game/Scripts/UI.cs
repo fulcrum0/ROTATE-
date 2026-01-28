@@ -1,28 +1,21 @@
-using TMPro;
+using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class UI : MonoBehaviour {
-    [Header("References")]
-    [SerializeField] private TextMeshProUGUI _healthText;
+    [SerializeField] private Ball _ball;
+    [SerializeField] private Sprite _fullHeartSprite;
+    [SerializeField] private Sprite _emptyHeartSprite;
+    [SerializeField] private List<Image> _hearts;
 
-    [Header("Settings")]
-    private int _health = 100;
-    private int _currentHealth;
 
     void Start() {
-        _healthText.text = _health.ToString();
-        _currentHealth = _health;
+        _ball._currentHealth = _hearts.Count;
     }
 
-    void Update() {
-        UpdateHealthUI();
-    }
-
-    public void UpdateHealth(int damage) {
-        _currentHealth -= damage;
-    }
-
-    public void UpdateHealthUI() {
-        _healthText.text = _currentHealth.ToString();
+    public void UpdateHearts() {
+        for (int i = 0; i < _hearts.Count; i++) {
+            _hearts[i].sprite = i < _ball._currentHealth ? _fullHeartSprite : _emptyHeartSprite;
+        }
     }
 }

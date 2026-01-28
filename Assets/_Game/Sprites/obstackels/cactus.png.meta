@@ -163,7 +163,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -201,7 +201,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -255,12 +255,12 @@ TextureImporter:
       name: cactus_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 155
-        width: 27
-        height: 26
+        x: 3
+        y: 156
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: cactus_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 129
-        width: 27
-        height: 26
+        x: 34
+        y: 156
+        width: 23
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: cactus_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 155
-        width: 25
-        height: 26
+        x: 65
+        y: 156
+        width: 21
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: cactus_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 129
-        width: 27
-        height: 27
+        x: 90
+        y: 111
+        width: 28
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: cactus_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 155
-        width: 23
-        height: 26
+        x: 124
+        y: 156
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: cactus_5
       rect:
         serializedVersion: 2
-        x: 89
-        y: 110
-        width: 30
-        height: 71
+        x: 155
+        y: 156
+        width: 23
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: cactus_6
       rect:
         serializedVersion: 2
-        x: 123
-        y: 155
-        width: 27
-        height: 26
+        x: 3
+        y: 130
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: cactus_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 121
-        width: 21
-        height: 34
+        x: 33
+        y: 130
+        width: 23
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: cactus_8
       rect:
         serializedVersion: 2
-        x: 154
-        y: 155
+        x: 61
+        y: 130
         width: 25
-        height: 26
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: cactus_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 129
-        width: 25
-        height: 16
+        x: 129
+        y: 122
+        width: 19
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: cactus_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 103
-        width: 27
-        height: 26
+        x: 159
+        y: 130
+        width: 17
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: cactus_11
       rect:
         serializedVersion: 2
-        x: 158
-        y: 129
-        width: 19
-        height: 23
+        x: 5
+        y: 104
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: cactus_12
       rect:
         serializedVersion: 2
-        x: 159
-        y: 120
-        width: 14
-        height: 10
+        x: 33
+        y: 104
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: cactus_13
       rect:
         serializedVersion: 2
-        x: 4
-        y: 103
-        width: 24
-        height: 24
+        x: 67
+        y: 104
+        width: 17
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,12 +563,12 @@ TextureImporter:
       name: cactus_14
       rect:
         serializedVersion: 2
-        x: 66
-        y: 103
-        width: 19
-        height: 20
+        x: 160
+        y: 121
+        width: 12
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,12 +585,12 @@ TextureImporter:
       name: cactus_15
       rect:
         serializedVersion: 2
-        x: 124
-        y: 114
-        width: 7
-        height: 7
+        x: 125
+        y: 115
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -607,12 +607,12 @@ TextureImporter:
       name: cactus_16
       rect:
         serializedVersion: 2
-        x: 132
-        y: 111
-        width: 8
-        height: 9
+        x: 133
+        y: 112
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -629,12 +629,12 @@ TextureImporter:
       name: cactus_17
       rect:
         serializedVersion: 2
-        x: 141
-        y: 112
-        width: 7
-        height: 7
+        x: 142
+        y: 113
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: cactus_18
       rect:
         serializedVersion: 2
-        x: 154
-        y: 112
-        width: 14
-        height: 8
+        x: 155
+        y: 113
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -673,12 +673,12 @@ TextureImporter:
       name: cactus_19
       rect:
         serializedVersion: 2
-        x: 171
-        y: 111
-        width: 7
-        height: 7
+        x: 172
+        y: 112
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -695,12 +695,12 @@ TextureImporter:
       name: cactus_20
       rect:
         serializedVersion: 2
-        x: 98
-        y: 103
-        width: 16
-        height: 7
+        x: 99
+        y: 104
+        width: 14
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -717,12 +717,12 @@ TextureImporter:
       name: cactus_21
       rect:
         serializedVersion: 2
-        x: 130
-        y: 103
-        width: 12
-        height: 6
+        x: 131
+        y: 104
+        width: 10
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -739,12 +739,12 @@ TextureImporter:
       name: cactus_22
       rect:
         serializedVersion: 2
-        x: 160
-        y: 103
-        width: 12
-        height: 6
+        x: 161
+        y: 104
+        width: 10
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -761,12 +761,12 @@ TextureImporter:
       name: cactus_23
       rect:
         serializedVersion: 2
-        x: 1
-        y: 51
-        width: 28
-        height: 26
+        x: 5
+        y: 78
+        width: 21
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -783,12 +783,12 @@ TextureImporter:
       name: cactus_24
       rect:
         serializedVersion: 2
-        x: 4
-        y: 77
-        width: 23
-        height: 20
+        x: 35
+        y: 78
+        width: 21
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -805,12 +805,12 @@ TextureImporter:
       name: cactus_25
       rect:
         serializedVersion: 2
-        x: 30
-        y: 51
-        width: 24
-        height: 26
+        x: 65
+        y: 78
+        width: 21
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -827,12 +827,12 @@ TextureImporter:
       name: cactus_26
       rect:
         serializedVersion: 2
-        x: 34
-        y: 77
-        width: 23
-        height: 14
+        x: 95
+        y: 78
+        width: 21
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -849,12 +849,12 @@ TextureImporter:
       name: cactus_27
       rect:
         serializedVersion: 2
-        x: 60
-        y: 51
-        width: 24
-        height: 26
+        x: 125
+        y: 78
+        width: 21
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -871,12 +871,12 @@ TextureImporter:
       name: cactus_28
       rect:
         serializedVersion: 2
-        x: 64
-        y: 77
-        width: 23
-        height: 17
+        x: 155
+        y: 78
+        width: 21
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -893,12 +893,12 @@ TextureImporter:
       name: cactus_29
       rect:
         serializedVersion: 2
-        x: 90
-        y: 51
-        width: 24
-        height: 26
+        x: 2
+        y: 52
+        width: 26
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -915,12 +915,12 @@ TextureImporter:
       name: cactus_30
       rect:
         serializedVersion: 2
-        x: 94
-        y: 77
-        width: 23
-        height: 15
+        x: 31
+        y: 52
+        width: 22
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -937,12 +937,12 @@ TextureImporter:
       name: cactus_31
       rect:
         serializedVersion: 2
-        x: 122
-        y: 51
-        width: 25
-        height: 26
+        x: 61
+        y: 52
+        width: 22
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -959,12 +959,12 @@ TextureImporter:
       name: cactus_32
       rect:
         serializedVersion: 2
-        x: 124
-        y: 77
-        width: 23
-        height: 14
+        x: 91
+        y: 52
+        width: 22
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -981,12 +981,12 @@ TextureImporter:
       name: cactus_33
       rect:
         serializedVersion: 2
-        x: 152
-        y: 25
-        width: 27
-        height: 52
+        x: 123
+        y: 52
+        width: 23
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1003,12 +1003,12 @@ TextureImporter:
       name: cactus_34
       rect:
         serializedVersion: 2
-        x: 154
-        y: 77
-        width: 23
-        height: 14
+        x: 153
+        y: 26
+        width: 25
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1025,12 +1025,12 @@ TextureImporter:
       name: cactus_35
       rect:
         serializedVersion: 2
-        x: 2
-        y: 25
-        width: 27
-        height: 26
+        x: 3
+        y: 26
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1047,12 +1047,12 @@ TextureImporter:
       name: cactus_36
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 0
-        width: 27
-        height: 31
+        width: 25
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1069,12 +1069,12 @@ TextureImporter:
       name: cactus_37
       rect:
         serializedVersion: 2
-        x: 60
+        x: 61
         y: 0
-        width: 31
-        height: 32
+        width: 29
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1091,12 +1091,12 @@ TextureImporter:
       name: cactus_38
       rect:
         serializedVersion: 2
-        x: 103
-        y: 27
-        width: 7
-        height: 7
+        x: 104
+        y: 28
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1113,12 +1113,12 @@ TextureImporter:
       name: cactus_39
       rect:
         serializedVersion: 2
-        x: 131
-        y: 27
-        width: 11
-        height: 7
+        x: 132
+        y: 28
+        width: 9
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1135,12 +1135,12 @@ TextureImporter:
       name: cactus_40
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 0
-        width: 27
-        height: 26
+        width: 25
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1157,12 +1157,12 @@ TextureImporter:
       name: cactus_41
       rect:
         serializedVersion: 2
-        x: 92
+        x: 93
         y: 0
-        width: 27
-        height: 25
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1179,12 +1179,12 @@ TextureImporter:
       name: cactus_42
       rect:
         serializedVersion: 2
-        x: 122
+        x: 123
         y: 0
-        width: 27
-        height: 25
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1201,7 +1201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8008062b4c53641b995e16b514d89c3d
     internalID: 0
     vertices: []
     indices: 
@@ -1209,7 +1209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       cactus_0: 7679083508794041174
       cactus_1: -850843484704018319

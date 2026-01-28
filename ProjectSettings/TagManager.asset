@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Obstacle
+  - Cactus
+  - Spike
+  - StartPoint
+  - FinishPoint
+  - Mud
+  - Platform
   layers:
   - Default
   - TransparentFX
