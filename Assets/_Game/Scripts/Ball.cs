@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour {
     [Header("References")]
@@ -47,7 +48,7 @@ public class Ball : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("FinishPoint")) {
-            transform.position = _startPoint.position;
+            SceneManager.LoadScene("Menu");
         }
     }
 
@@ -73,8 +74,9 @@ public class Ball : MonoBehaviour {
     }
 
     void Die() {
-        Time.timeScale = 0;
+        SceneManager.LoadScene("Menu");
     }
+
     public void TakeDamage() {
         if (_currentHealth <= 1) {
             Die();
